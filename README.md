@@ -7,4 +7,4 @@ https://github.com/Laura-GB/DemoData/raw/main/Restaurant%20Data.xlsx
 
 Path for data for regions North, East, South and West and monthly data
 
-https://github.com/Laura-GB/DemoData/blob/main/NESW%20Data.xlsx
+https://github.com/Laura-GB/DemoData/raw/main/NESW%20Data.xlsx
