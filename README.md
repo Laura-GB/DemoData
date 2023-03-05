@@ -9,8 +9,8 @@ Path for data for regions North, East, South and West and monthly data
 
 https://github.com/Laura-GB/DemoData/raw/main/NESW%20Data.xlsx
 
-# Video Resources
+# Video and Blog Resources
 
 5 SVG Stars PBIX - https://github.com/Laura-GB/DemoData/raw/main/5%20Stars.pbix
 
-Weather PBIX 
+Weather PBIX - https://github.com/Laura-GB/DemoData/raw/main/UK%20Weather.pbix
