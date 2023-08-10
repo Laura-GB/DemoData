@@ -1,9 +1,13 @@
 # Strava Reporting
 Here are the resources to replicate the demos I include in blog posts and videos and have demo'd at multiple events. 
-## Power BI Report
-In this repo I have a Power BI report template. It needs a SharePoint library and a SQL Server table. 
-* [Power BI Template]()
-* SQL to build table
+## Data Sources
+The flows and report use 2 data source types, SharePoint library and a table in SQL Server. 
+
+* SharePoint Libraries
+    * Landed - used to load Stava tcx files
+    * Cleaned - Flow saves XML files here and Power BI loads from here
+
+* SQL Server table - Power BI does a direct connect and a flow writes to when the flow button is pressed. Yes we have a datetime as an ID column, yes its not great, I will fix it at some point
 
 ```SQL
     CREATE TABLE [dbo].[ActivitySections](
@@ -12,6 +16,9 @@ In this repo I have a Power BI report template. It needs a SharePoint library an
 	[SectionName] [nchar](10) NULL
     )
 ```
+## Power BI Report
+In this repo I have a Power BI report template. It needs a SharePoint library and a SQL Server table. 
+* [Power BI Template]()
 
 ## Data Flow using Power Automate
 * When I record exercise in Strava that creates an activity.
