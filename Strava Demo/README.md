@@ -3,7 +3,8 @@ Here are the resources to replicate the demos I include in blog posts and videos
 ## Power BI Report
 In this repo I have a Power BI report template. It needs a SharePoint library and a SQL Server table. 
 * [Power BI Template]()
-SQL to build table
+* SQL to build table
+
     CREATE TABLE [dbo].[ActivitySections](
 	[ActivityID] [datetime] NULL,
 	[SectionStart] [int] NULL,
