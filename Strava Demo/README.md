@@ -5,11 +5,13 @@ In this repo I have a Power BI report template. It needs a SharePoint library an
 * [Power BI Template]()
 * SQL to build table
 
+```SQL
     CREATE TABLE [dbo].[ActivitySections](
 	[ActivityID] [datetime] NULL,
 	[SectionStart] [int] NULL,
 	[SectionName] [nchar](10) NULL
     )
+```
 
 ## Data Flow using Power Automate
 * When I record exercise in Strava that creates an activity.
